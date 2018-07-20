@@ -6,6 +6,7 @@ import router from './router'
 import fastClick from 'fastclick'
 import '@/assets/styles/normalize.min.css'
 import '@/assets/styles/border.min.css'
+import '@/assets/styles/iconfont.css'
 
 Vue.config.productionTip = false
 
