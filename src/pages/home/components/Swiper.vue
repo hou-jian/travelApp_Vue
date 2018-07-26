@@ -20,6 +20,9 @@ export default {
                 loop: true,
                 pagination: {
                     el: '.swiper-pagination'
+                },
+                autoplay: {
+                    delay: 3000,//1秒切换一次
                 }
             },
             swiperList: [
