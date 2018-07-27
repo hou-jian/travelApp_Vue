@@ -21,14 +21,12 @@ export default {
                 pagination: {
                     el: '.swiper-pagination'
                 },
-                autoplay: {
-                    delay: 3000,//1秒切换一次
-                }
+                autoplay: true
             }
         }
     },
     props: {
-        swiperList: Array    
+        swiperList: Array
     },
 }
 </script>
