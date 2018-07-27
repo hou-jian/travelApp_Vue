@@ -30,7 +30,7 @@ export default {
     @import '~@/assets/styles/varibles.styl'
     .header
         display: flex
-        line-height: $headerHeight
+        line-height: $headerHeight;
         background: $bgColor
         color: #fff
         font-size: .32rem

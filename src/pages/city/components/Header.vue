@@ -19,7 +19,7 @@ export default {
         position: relative;
         overflow: hidden;
         font-size: .32rem
-        height: $headerHeight;
+        height: $headerHeight
         line-height: $headerHeight
         text-align: center;
         color: #fff;
