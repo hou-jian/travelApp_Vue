@@ -19,27 +19,8 @@
 <script>
 export default {
     name: 'HomeRecommend',
-    data() {
-        return {
-            recommendList: [{
-                id: '0001',
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_200x200_51dd1e90.jpg',
-                title: '国色天乡·水上乐园',
-                desc: '准备好喉咙，其他的担心也没有用，尽情的尖叫吧!'
-            },
-            {
-                id: '0002',
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_200x200_51dd1e90.jpg',
-                title: '国色天乡·水上乐园',
-                desc: '准备好喉咙，其他的担心也没有用，尽情的尖叫吧!'
-            },
-            {
-                id: '0003',
-                imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_200x200_51dd1e90.jpg',
-                title: '国色天乡·水上乐园',
-                desc: '准备好喉咙，其他的担心也没有用，尽情的尖叫吧!'
-            }]
-        }
+    props: {
+        recommendList: Array
     }
 }
 </script>

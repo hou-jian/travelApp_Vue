@@ -24,27 +24,12 @@ export default {
                 autoplay: {
                     delay: 3000,//1秒切换一次
                 }
-            },
-            swiperList: [
-                {
-                    id: '0001',
-                    imgUrl : 'http://img1.qunarzz.com/piao/fusion/1807/22/382624cbe97b0502.jpg_750x200_36a074d6.jpg'
-                },
-                {
-                    id: '0002',
-                    imgUrl : 'http://img1.qunarzz.com/piao/fusion/1807/c6/44fce1467be17702.jpg_750x200_406f5fc3.jpg'
-                },
-                {
-                    id: '0003',
-                    imgUrl : 'http://img1.qunarzz.com/piao/fusion/1807/b6/23980fda69a67d02.jpg_750x200_8830c8e2.jpg'
-                },
-                {
-                    id: '0004',
-                    imgUrl : 'http://img1.qunarzz.com/piao/fusion/1806/c5/8f384b861e4e9e02.jpg_750x200_29d574ba.jpg'
-                },
-            ]
+            }
         }
-    }
+    },
+    props: {
+        swiperList: Array    
+    },
 }
 </script>
 
