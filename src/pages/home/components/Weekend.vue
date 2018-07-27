@@ -6,8 +6,8 @@
         <ul>
             <li class="item border-bottom" v-for="item of weekendList" :key="item.id">
                 <img class="item-img" :src="item.imgUrl">
-                <p class="item-title">{{ item.title }}</p>
-                <p class="item-desc">{{ item.desc }}</p>
+                <p class="item-title" style="font-size: .32rem">{{ item.title }}</p>
+                <p class="item-desc" style="color: #616161">{{ item.desc }}</p>
             </li>
         </ul>
     </div>
