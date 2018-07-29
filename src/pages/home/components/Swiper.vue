@@ -17,7 +17,6 @@ export default {
         return {
             // 这里是轮播图的轮子(vue-awesome-swiper)提供的方法，详情查文档
             swiperOption: {
-                loop: true,
                 pagination: {
                     el: '.swiper-pagination'
                 },
