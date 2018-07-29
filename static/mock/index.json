@@ -1,0 +1,115 @@
+{
+  "ret": true,
+  "data": {
+    "city": "成都",
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/e7/d70d0830a9941b02.jpg_750x200_f8c7d2ad.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1806/97/f282eaa627305102.jpg_750x200_bfa4f1aa.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/c8/2948642fbc3b6802.jpg_750x200_1fc3179f.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/be/7be25d03a36a002.jpg_750x200_2fec78ce.jpg"
+      },{
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/5e/cfee2e9e2f357202.jpg_750x200_b0308a43.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+        "desc": "水上乐园"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "成都必游"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/95/8d02011d149bdb02.png",
+        "desc": "成都定制游"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "亲子游"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+        "desc": "海洋馆"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "desc": "游乐场"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/95/8d02011d149bdb02.png",
+        "desc": "汽车票"
+      }, {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "desc": "全部玩乐"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_200x200_51dd1e90.jpg",
+        "title": "国色天乡·水上乐园",
+        "desc": " GO! GO! GO ! ! 准备好喉咙，其他的担心也没有用，尽情的尖叫吧!"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1705/ed/edd4063a442f30c1a3.img.jpg_200x200_724f9e6a.jpg",
+        "title": "天堂岛海洋乐园",
+        "desc": "嘟嘟嘟"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg",
+        "title": "成都海昌极地海洋公园",
+        "desc": "嘟嘟嘟"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201309/24/977fea7b3c5cd758c8d65eac.jpg_200x200_697c3b3f.jpg",
+        "title": "成都熊猫基地",
+        "desc": "嘟嘟嘟"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1510/23/23fa69e071d77b48.water.jpg_200x200_a6b74058.jpg",
+        "title": "成都环球中心",
+        "desc": "嘟嘟嘟"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/a2/78e4dbcfd45a6d.jpg_r_640x214_7a62b06a.jpg",
+        "title": "成都必游TOP10",
+        "desc": "成都的标志，也是现代人对老成都的记忆"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1507/a0/7087c85d439e4.jpg_r_640x214_4cd56a30.jpg",
+        "title": "远离烧烤模式",
+        "desc": "周末还在搓麻将？快出门赏美景"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/63/0ffcb5c329a19c.jpg_r_640x214_93fd1e5a.jpg",
+        "title": "慢游成都最美古镇",
+        "desc": "撷取一份悠闲，寻觅散落在时光里的幸福"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/e2/2a63e38b84bc8e.jpg_r_640x214_679f0d37.jpg",
+        "title": "玩转主题乐园",
+        "desc": "乐园，与青春作伴"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b8/e6206794272459.jpg_r_640x214_a002ded9.jpg",
+        "title": "郊野户外深呼吸",
+        "desc": "做个久违的深呼吸，来一场清肺之旅"
+      }]
+  }
+}
