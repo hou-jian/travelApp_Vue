@@ -31,7 +31,7 @@ export default {
         }
     },
     props: {
-        iconList: Array    
+        iconList: Array
     },
     computed: {
         pages() {
@@ -57,6 +57,7 @@ export default {
         overflow: hidden
         height: 0
         padding-bottom: 50%
+        text-align: center;
         .icon
             position: relative
             // overflow: hidden;
