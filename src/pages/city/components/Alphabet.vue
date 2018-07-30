@@ -42,14 +42,15 @@ export default {
     },
     methods: {
         handleLetterClick(e) {
+            console.log('e.target.innerText');
             this.$emit('change', e.target.innerText)
         },
         handleTouchStart() {
             this.tochStatus = true
-            // 阻止浏览器的下拉刷新事件
-            event.preventDefault();
         },
         handleTouchMove(e) {
+            // 阻止浏览器的下拉刷新事件
+            event.preventDefault();
             // 仅在tochStatus为true才运行函数
             if (this.tochStatus) {
                 // 用于清除定时器
