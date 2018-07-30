@@ -17,7 +17,12 @@
                     </div>
                 </div>
             </div>
-            <div class="area" v-for="(items, key) of cities" :key="key">
+            <div
+                class="area"
+                v-for="(items, key) of cities"
+                :key="key"
+                :ref="key"
+            >
                 <div class="title border-topbottom">{{ key }}</div>
                 <div class="item-list" v-for="item of items" :key="item.id">
                     <div class="item border-bottom">{{ item.name }}</div>
@@ -33,10 +38,23 @@ export default {
     name: "CityList",
     props: {
         hot: Array,
-        cities: Object
+        cities: Object,
+        letter: String
     },
     mounted() {
         this.scroll = new Bscroll(this.$refs.wrapper)
+    },
+    watch: {
+        letter() {
+            // console.log(this.letter);
+            if (this.letter) {
+                // 因为的循环内，获取到的是一个array需要多加个[0]
+                const el = this.$refs[this.letter][0]
+                // console.log(el);
+                // 这里利用，beetter-scroll 提供的方法跳转到对应元素
+                this.scroll.scrollToElement(el)
+            }
+        }
     }
 }
 </script>
