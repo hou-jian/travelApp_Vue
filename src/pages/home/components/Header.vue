@@ -40,8 +40,8 @@ export default {
         .header-left
             width: .64rem
             float: left
+            text-align: center
             .back-icon
-                text-align: center
                 font-size: .4rem
         .header-input
             flex: 1
