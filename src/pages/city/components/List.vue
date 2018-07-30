@@ -76,8 +76,11 @@ export default {
         handleCityClick(city) {
             // // 标准流程通过`dispatch`调用`actions`
             // this.$store.dispatch('changeCity', city)
+
             // 这里足够简单，可直接通过`commit`调用`mutations`
             // this.$store.commit('changeCity', city)
+            
+            // 通过吧vuex数据注册进来了,所以可以这样直接调用方法
             this.changeCity(city)
             this.$router.push('/')
         },

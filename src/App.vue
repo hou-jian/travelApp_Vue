@@ -3,7 +3,6 @@
     <keep-alive>
         <!-- 显示当前路由地址，所对应的内容 -->
         <router-view/>
-
     </keep-alive>
 </div>
 </template>
