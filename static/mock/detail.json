@@ -1,0 +1,25 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "峨眉山(AAAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1712/16/16dd785ae3e2447ba3.img.jpg_600x330_38a5c69c.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1412/f1/aadbcf1e96d75c3c5d2779c2584efbf3.water.jpg_r_800x800_099088ab.jpg", "http://img1.qunarzz.com/sight/p0/1712/16/16dd785ae3e2447ba3.img.jpg_r_800x800_dd060a69.jpg","http://img1.qunarzz.com/sight/p0/1412/8c/00acc470780a5d986d8de5c0ceb5b701.water.jpg_r_800x800_7da3e204.jpg"],
+    "categoryList": [{
+        "title": "成人票",
+        "children": [{
+          "title": "成人三馆联票",
+          "children": [{
+            "title": "成人三馆联票 - 某一连锁店销售"
+          }]
+        },{
+          "title": "成人五馆联票"
+        }]
+      }, {
+        "title": "学生票"
+      }, {
+        "title": "儿童票"
+      }, {
+        "title": "特惠票"
+      }]
+  }
+}
