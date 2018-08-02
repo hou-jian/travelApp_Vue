@@ -12,10 +12,11 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/api': {
-            target: 'http://192.168.0.106:8080',
-            pathRewrite: {
-                '^/api': '/static/mock'
-            }
+            target: 'http://houj.cc',
+            // //这里用于配置请求/api时转发路径为/static/mock，以实现ajax的模拟数据请求
+            // pathRewrite: {
+            //     '^/api': '/static/mock'
+            // }
         }
     },
 

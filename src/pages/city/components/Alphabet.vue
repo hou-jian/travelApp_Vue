@@ -6,7 +6,7 @@
         :ref="item"
         @click="handleLetterClick"
         @touchstart="handleTouchStart"
-        @touchmove="handleTouchMove"
+        @touchmove.prevent="handleTouchMove"
         @touchend="handleTouchEnd"
         >
             {{ item }}
@@ -42,15 +42,16 @@ export default {
     },
     methods: {
         handleLetterClick(e) {
-            console.log('e.target.innerText');
+            // console.log('e.target.innerText');
             this.$emit('change', e.target.innerText)
         },
         handleTouchStart() {
             this.tochStatus = true
         },
         handleTouchMove(e) {
-            // 阻止浏览器的下拉刷新事件
-            event.preventDefault();
+            // 阻止浏览器的下拉刷新事件(这里是原生的方法，实际使用了vue提供的修饰符，见上面)
+            // event.preventDefault();
+
             // 仅在tochStatus为true才运行函数
             if (this.tochStatus) {
                 // 用于清除定时器
