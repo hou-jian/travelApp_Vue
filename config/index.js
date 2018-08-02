@@ -12,16 +12,16 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/api': {
-            target: 'http://houj.cc',
-            // //这里用于配置请求/api时转发路径为/static/mock，以实现ajax的模拟数据请求
-            // pathRewrite: {
-            //     '^/api': '/static/mock'
-            // }
+            target: 'http://localhost:8080',
+            //这里用于配置请求/api时转发路径为/static/mock，以实现ajax的模拟数据请求
+            pathRewrite: {
+                '^/api': '/static/mock'
+            }
         }
     },
 
     // Various Dev Server settings
-    host: '192.168.0.106', // can be overwritten by process.env.HOST
+    host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
