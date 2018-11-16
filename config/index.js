@@ -11,13 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        '/api': {
-            target: 'http://localhost:8080',
-            //这里用于配置请求/api时转发路径为/static/mock，以实现ajax的模拟数据请求
-            pathRewrite: {
-                '^/api': '/static/mock'
-            }
-        }
+
     },
 
     // Various Dev Server settings
@@ -51,7 +45,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '/qunar',
 
     /**
      * Source Maps
